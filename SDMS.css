@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial;
+}
+h1 {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: 1px;
+    padding: 30px;
+}
+#fields{
+    text-align: center;
+    padding: 2vh;
+}
+#fields label{
+    font-size: large;
+}
+#fields input{
+    font-size: x-large;
+    margin-left: 1vw;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-left: 5px;
+}
+#features{
+    text-align: center;
+}
+button {
+    background-color: rgb(72, 72, 238);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2vh;
+    margin: 1vh;
+    font-size: small;
+}
+button:hover{
+    cursor: pointer;
+    font-size: large;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2vh;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
